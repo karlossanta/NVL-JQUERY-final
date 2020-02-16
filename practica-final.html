@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="utf-8">
+    <title>NVL-JQUERY-P14b</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 75px;
+        }
+        .selected {
+            background-color: lightblue;
+            border-color: blue;
+            border-width: 2px;
+        }
+        /* Le damos algo de estilo al mensaje ganador */
+        #mensaje-ganador {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 100px;
+            color: green;
+            border-top: 5px solid green;
+            border-bottom: 5px solid green;
+            text-align: center;
+            width: 80%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tres en Raya</h1>
+    <table>
+        <tr>
+            <td id="primera"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+<!-- El Javascript que modifique el DOM debe ir al final del documento -->
+<script src="jquery.js"></script>
+<script src="practica-final.js" type="application/javascript"></script>
+
+</html>
